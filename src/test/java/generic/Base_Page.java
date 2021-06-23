@@ -33,7 +33,7 @@ public class Base_Page {
 			System.out.println(" title");
 			Assert.fail();
 		}
-s
+
 	}
 
 	public void verifyElement(WebElement element, int time) {
