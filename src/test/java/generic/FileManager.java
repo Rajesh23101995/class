@@ -1,8 +1,6 @@
 package generic;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Properties;
 
 public class FileManager {
@@ -14,7 +12,7 @@ public class FileManager {
 			pro = new Properties();
 			pro.load(fis);//load the property file
 		} catch (Exception e) {
-			System.out.println(" property file not found");
+			System.out.println(" property file  found");
 		}
 	}
 

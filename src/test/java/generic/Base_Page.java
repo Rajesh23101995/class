@@ -30,10 +30,10 @@ public class Base_Page {
 			wait.until(ExpectedConditions.titleContains(title));
 			System.out.println("Valid title");
 		} catch (Exception e) {
-			System.out.println("invalid title");
+			System.out.println(" title");
 			Assert.fail();
 		}
-
+s
 	}
 
 	public void verifyElement(WebElement element, int time) {
