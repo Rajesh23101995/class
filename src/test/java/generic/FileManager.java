@@ -34,7 +34,7 @@ public class FileManager {
 	}
 
 	public String getProductionUrl() {
-		String url = pro.getProperty("production");
+		String url = pro.getProperty("productionSDSS");
 		return url;
 	}
 	
